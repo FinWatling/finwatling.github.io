@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: antiquewhite;
 }
 
 html, body {
@@ -10,9 +11,17 @@ html, body {
     justify-content: center;
     align-items: center;
     text-align: center;
-}
 
 .container {
-    width: 80%;
-    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+    display: block;
+    line-height: 1.7;
+}
+
+img {height: 20rem;
+     position: absolute;}
+
+h1, h2, p {
+    margin: 10px 0;
 }
